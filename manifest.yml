@@ -1,3 +1,5 @@
 applications:
 - name: httpbin
+  buildpack: https://github.com/cloudfoundry/python-buildpack
   memory: 128M
+  stack: cflinuxfs2
